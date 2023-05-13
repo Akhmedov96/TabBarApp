@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		52B235A72A0F5AB100DB0ED6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B235A62A0F5AB100DB0ED6 /* AppDelegate.swift */; };
 		52B235A92A0F5AB100DB0ED6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B235A82A0F5AB100DB0ED6 /* SceneDelegate.swift */; };
-		52B235AB2A0F5AB100DB0ED6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B235AA2A0F5AB100DB0ED6 /* ViewController.swift */; };
+		52B235AB2A0F5AB100DB0ED6 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B235AA2A0F5AB100DB0ED6 /* FirstViewController.swift */; };
 		52B235AE2A0F5AB100DB0ED6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B235AC2A0F5AB100DB0ED6 /* Main.storyboard */; };
 		52B235B02A0F5AB200DB0ED6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52B235AF2A0F5AB200DB0ED6 /* Assets.xcassets */; };
 		52B235B32A0F5AB200DB0ED6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B235B12A0F5AB200DB0ED6 /* LaunchScreen.storyboard */; };
+		52B235BD2A0F658900DB0ED6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B235BC2A0F658900DB0ED6 /* MainViewController.swift */; };
+		52B235BF2A0F65C800DB0ED6 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B235BE2A0F65C800DB0ED6 /* TabBarController.swift */; };
+		52B235C12A0F65E400DB0ED6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B235C02A0F65E400DB0ED6 /* SecondViewController.swift */; };
+		52B235C32A0F6B1000DB0ED6 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B235C22A0F6B1000DB0ED6 /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		52B235A32A0F5AB100DB0ED6 /* TabBarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52B235A62A0F5AB100DB0ED6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52B235A82A0F5AB100DB0ED6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		52B235AA2A0F5AB100DB0ED6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52B235AA2A0F5AB100DB0ED6 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		52B235AD2A0F5AB100DB0ED6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52B235AF2A0F5AB200DB0ED6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52B235B22A0F5AB200DB0ED6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52B235B42A0F5AB200DB0ED6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52B235BC2A0F658900DB0ED6 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		52B235BE2A0F65C800DB0ED6 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		52B235C02A0F65E400DB0ED6 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		52B235C22A0F6B1000DB0ED6 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +66,11 @@
 			children = (
 				52B235A62A0F5AB100DB0ED6 /* AppDelegate.swift */,
 				52B235A82A0F5AB100DB0ED6 /* SceneDelegate.swift */,
-				52B235AA2A0F5AB100DB0ED6 /* ViewController.swift */,
+				52B235BC2A0F658900DB0ED6 /* MainViewController.swift */,
+				52B235BE2A0F65C800DB0ED6 /* TabBarController.swift */,
+				52B235AA2A0F5AB100DB0ED6 /* FirstViewController.swift */,
+				52B235C02A0F65E400DB0ED6 /* SecondViewController.swift */,
+				52B235C22A0F6B1000DB0ED6 /* ThirdViewController.swift */,
 				52B235AC2A0F5AB100DB0ED6 /* Main.storyboard */,
 				52B235AF2A0F5AB200DB0ED6 /* Assets.xcassets */,
 				52B235B12A0F5AB200DB0ED6 /* LaunchScreen.storyboard */,
@@ -138,9 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52B235AB2A0F5AB100DB0ED6 /* ViewController.swift in Sources */,
+				52B235C12A0F65E400DB0ED6 /* SecondViewController.swift in Sources */,
+				52B235AB2A0F5AB100DB0ED6 /* FirstViewController.swift in Sources */,
 				52B235A72A0F5AB100DB0ED6 /* AppDelegate.swift in Sources */,
+				52B235C32A0F6B1000DB0ED6 /* ThirdViewController.swift in Sources */,
 				52B235A92A0F5AB100DB0ED6 /* SceneDelegate.swift in Sources */,
+				52B235BF2A0F65C800DB0ED6 /* TabBarController.swift in Sources */,
+				52B235BD2A0F658900DB0ED6 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,9 +318,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.icodelessons.TabBarApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -330,9 +349,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.icodelessons.TabBarApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
